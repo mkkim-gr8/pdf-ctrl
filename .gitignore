@@ -1,0 +1,21 @@
+# Go build outputs
+/backend/pdf-ctrl
+/backend/*.exe
+/backend/*.test
+/backend/coverage.out
+
+# Frontend dependencies and build output
+/frontend/node_modules/
+/frontend/dist/
+/frontend/dist-ssr/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# macOS and editor files
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json
